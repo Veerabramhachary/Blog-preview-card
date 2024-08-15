@@ -27,8 +27,6 @@ body {
 }
 
 .container {
-    position: absolute;
-    top: 30%;
     width: 327px;
     height: auto;
     background: var(--white);
