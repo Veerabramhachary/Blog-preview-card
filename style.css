@@ -19,11 +19,12 @@
 }
 
 body {
-    font-family: "Figtree", "Helvet";
+    font-family: "Figtree", Helvet;
     display: flex;
-    background: var(--yellow);
     justify-content: center;
     align-items: center;
+    min-height: 100vh; /* Ensures full viewport height */
+    background: var(--yellow);
 }
 
 .container {
@@ -34,7 +35,6 @@ body {
     padding: 24px;
     padding-bottom: 0;
     box-shadow: 8px 8px 0px 0px #000000;
-    
 }
 
 img {
