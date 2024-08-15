@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@500;800&family=Figtree:ital,wght@0,300..900;1,300..900&family=Outfit:wght@100..900&display=swap');
+
+:root {
+    --yellow: hsl(47, 88%, 63%);
+
+    --white: hsl(0, 0%, 100%);
+
+    --gray-500: hsl(0, 0%, 42%);
+    --gray-950: hsl(0, 0%, 7%);
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+body {
+    font-family: "Figtree", "Helvet";
+    display: flex;
+    background: var(--yellow);
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    position: absolute;
+    top: 30%;
+    width: 327px;
+    height: auto;
+    background: var(--white);
+    border-radius: 20px;
+    padding: 24px;
+    padding-bottom: 0;
+    box-shadow: 8px 8px 0px 0px #000000;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.learning {
+    width: 82px;
+    height: 29px;
+    background-color: var(--yellow);
+    margin-top: 24px;
+    border-radius: 4px;
+    
+}
+
+h6 {
+    color: var(--gray-950);
+    text-align: center;
+    padding-top: 6px;
+    font-weight: 900;
+    font-size: 12px;
+}
+
+.publish {
+    font-size: 12px;
+    color : var(--gray-950);
+    font-weight: 300;
+    margin-top: 12px;
+    margin-bottom: 6px;
+}
+
+.title {
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    color: var(--gray-950);
+}
+.title:hover{
+    color: var(--yellow);
+    cursor: pointer;
+}
+
+.content .text{
+    font-weight: 300;
+    font-size: 14px;
+    color: var(--gray-500);
+}
+
+.profile {
+    height: 32px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: row;
+}
+.profile img {
+    width: 32px;
+    height: 32px;
+    background-position: center;
+    background-size: cover;
+}
+
+.profile .text1
+{
+    margin-left: 12px;
+}
+
+.profile h1 {
+    font-size: 14px;
+    font-weight: 900;
+    color: var(--gray-950);
+}
